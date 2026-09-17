@@ -67,11 +67,11 @@ run "edge_routed_both_disabled_passes" {
   command = plan
 
   variables {
-    proxmox_host               = ""
-    enable_host_orchestration  = false
-    enable_host_l3             = false
-    enable_snat                = false
-    enable_dhcp                = false
+    proxmox_host              = ""
+    enable_host_orchestration = false
+    enable_host_l3            = false
+    enable_snat               = false
+    enable_dhcp               = false
   }
 
   assert {
